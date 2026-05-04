@@ -1,0 +1,14 @@
+
+{
+  "health_endpoint": "/ping",
+  "predict_endpoint": "/forecast",
+  "port": 8888,
+  "health_response": {"alive": true, "service": "EduTrack completion_days API"},
+  "test_input": {
+    "course_hours": 101,
+    "quizzes_count": 36,
+    "difficulty_level": 3,
+    "learner_experience": 2
+  },
+  "prediction": 50
+}

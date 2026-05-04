@@ -1,0 +1,22 @@
+{
+    "experiment_name": "edutrack-completion-days",
+    "models": [
+        {
+            "name": "Lasso",
+            "mae": 7.7526809798638485,
+            "rmse": 8.912149870467314,
+            "r2": 0.8807259929140946,
+            "mape": 18.549503548787833
+        },
+        {
+            "name": "RandomForest",
+            "mae": 10.313120000000016,
+            "rmse": 10.860781740556256,
+            "r2": 0.8228655554314555,
+            "mape": 20.098363194327554
+        }
+    ],
+    "best_model": "Lasso",
+    "best_metric_name": "rmse",
+    "best_metric_value": 8.912149870467314
+}

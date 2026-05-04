@@ -1,0 +1,13 @@
+{
+    "search_type": "grid",
+    "n_folds": 5,
+    "total_trials": 18,
+    "best_params": {
+        "max_depth": 10,
+        "min_samples_split": 2,
+        "n_estimators": 200
+    },
+    "best_mae": 9.422110000000046,
+    "best_cv_mae": 18.07954192162446,
+    "parent_run_name": "tuning-edutrack"
+}
